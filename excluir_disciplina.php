@@ -48,7 +48,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_disciplina'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excluir Disciplina</title>
-    <!-- Chamando o CSS -->
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -67,7 +66,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_disciplina'])) {
             <label for="id_disciplina">ID da Disciplina:</label>
             <input type="text" name="id_disciplina" id="id_disciplina" required>
             
-            <!-- Botão com o mesmo estilo visual da imagem -->
             <button type="submit">Excluir Dados</button>
         </form>
         
